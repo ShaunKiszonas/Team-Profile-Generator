@@ -13,7 +13,7 @@ const generatePage = (team) => {
                 break;
             case 'Engineer':
                 label = 'Github';
-                value = team[i].github;
+                value = `<a href="https://github.com/${team[i].github}">${team[i].github}</a>`;
                 break;
             case 'Intern':
                 label = 'School';
@@ -30,7 +30,7 @@ const generatePage = (team) => {
         <div class="employee-info">
             <ul>
                 <li>ID: ${team[i].id}</li>
-                <li>Email: ${team[i].email}</li>
+                <li>Email: <a href="mailto:${team[i].email}">${team[i].email}</a></li>
                 <li>${label}: ${value}</li>
             </ul>
         </div>
