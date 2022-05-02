@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+}
+
+.header {
+    background-color: rgb(202, 35, 35);
+    color: white;
+    margin: 5px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    border: 3px solid black;
+    box-shadow: 10px 10px rgba(202, 35, 35, 0.233);
+}
+
+.team {
+    max-width: 1250px;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.employee {
+    min-width: 250px;
+    background-color: rgba(199, 199, 199, 0.349);
+    min-height: 250px;
+    margin: 25px;
+    border: 1px solid black;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.192);
+    border-radius: 10px;
+}
+
+ul {
+    padding: 5px;
+}
+
+ul li {
+    list-style: none;
+    background-color: white;
+    padding: 5px;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 10px 0 2px 0;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(0, 102, 255, 0.712);
+}
+
+a:hover {
+    color: rgb(0, 102, 255);
+}
+
+.employee-heading {
+    background-color: rgba(0, 102, 255, 0.712);
+    color: white;
+    padding: 10px;
+    font-weight: bolder;
+    border-radius: 10px 10px 0 0;
+}
